@@ -1,0 +1,14 @@
+{application, dao,
+ [
+  {description, "An Erlang dao library"},
+  {vsn, "1"},
+  {modules, [
+             dao
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
